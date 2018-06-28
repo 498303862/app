@@ -1,0 +1,323 @@
+@import url('base.css');
+header{
+	width: 100%;
+	height: 1.6rem;
+	background: #ae5da1;
+	position: relative;
+}
+/* 头部开始 */
+.tbzuo{
+	width: 1.61rem;
+	height: 0.36rem;
+	float: left;
+	margin: 0.3rem 0 0 0.24rem;
+}
+.tbyou{
+	width: 1.34rem;
+	height: 0.36rem;
+	background: #bd8eb6;
+	float: right;
+	margin: 0.3rem 0.24rem 0 0;
+	border-radius: 0.25rem;
+}
+.tbzuo a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tbzuo .icon-msnui-map-location{
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+}
+.tbzuo span{
+	display: block;
+	font-size: 0.30rem;
+	color: #fff;
+	line-height: 0.30rem;
+
+}
+.tbyou a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tbyou .icon-sousuo1{
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+	padding-left: 0.1rem;
+    box-sizing: border-box;
+
+}
+.tbyou input{
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	border: none;
+	height: 100%;
+    width: 0.9rem;
+    padding: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    background: #bd8eb6;
+
+}
+.tbyou input:focus{
+	outline: none;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 7.02rem;
+	height: 2.50rem;
+	position: absolute;
+	left: 0.24rem;
+	right: 0.24rem;
+	top: 0.93rem;
+	border-radius: 0.1rem
+}
+
+.banner a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 导航开始 */
+.daohangdt{
+	width: 7.02rem;
+	height: 3.20rem;
+	margin: 1.88rem auto 0;
+}
+.daohang{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.daohang li{
+	width: 1.12rem;
+	height: 1.60rem;
+	display: block;
+	float: left;
+	margin-right: 0.83rem;
+
+}
+.daohang li:nth-child(4){
+	margin-right: 0;
+}
+.daohang li:nth-child(8){
+	margin-right: 0;
+}
+.daohang li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.yaundaoh{
+	width: 1.22rem;
+	height: 1.22rem;
+	background: red;
+	box-sizing: border-box;
+	border: 0.07rem solid #dcdcdc;
+	border-radius: 50%;
+	background: #ae5da1;
+}
+.yaundaoh i{
+	font-size: 0.6rem;
+	color: #fff;
+	text-align: center;
+	line-height: 1.22rem;
+	display: block;
+}
+.daohang span{
+	font-size: 0.24rem;
+	color: #333;
+	display: block;
+	text-align: center;
+	margin-top: 0.05rem;
+
+}
+
+/* 导航结束 */
+/* 猜你喜欢开始 */
+.cainixiahuan{
+	width: 1.97rem;
+	height: 0.64rem;
+    margin: 0.1rem auto;
+    font-size: 0.28rem;
+    color: #676767;
+    text-align: center;
+    line-height: 0.64rem;
+}
+.paixu{
+	width: 7.02rem;
+	height: 0.34rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.paixu a{
+	width: 1.36rem;
+	border: 0.01rem solid #333;
+	height: 0.33rem;
+	display: block;
+	float: left;
+	margin-right: 0.5rem;
+	border-radius: 0.25rem;
+	font-size: 0.2rem;
+	color: #d1d1d1;
+	text-align: center;
+	line-height: 0.33rem;
+
+}
+.paixu a:last-child{
+	margin-right: 0;
+}
+.paixu a:first-child{
+	color: #333;
+}
+.paixu a:hover{
+	color: #333;
+}
+
+/* 猜你喜欢结束 */
+/* 餐品开始 */
+.canpingditu{
+	width: 7.02rem;
+	height: 1.89rem;
+	margin: 0 auto;
+	border-bottom:  0.01rem solid #d8d7d8;
+}
+.fantu{
+	width: 1.28rem;
+	height: 1.28rem;
+	display: block;
+	line-height: 1.28rem;
+    float: left;
+    margin-top: 0.31rem;
+}
+.fantu img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.fanzi{
+	width: 5.63rem;
+	height: 1.28rem;
+	display: block;
+	line-height: 1.28rem;
+    float: right;
+    margin-top: 0.31rem;
+}
+.xiaoming{
+	height: 0.33rem;
+	float: left;
+	border-bottom:0.01rem dashed #94908f ;
+	font-size: 0.30rem;
+	color: #333;
+	line-height: 0.33rem;
+}
+.wuxing{
+	width: 1.63rem;
+	height: 0.24rem;
+	float: right;
+	margin-top: 0.05rem;
+}
+.wuxing img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.zhongjian{
+	width: 5.63rem;
+	height: 0.31rem;
+	float: left;
+	font-size: 0.24rem;
+	color: #999999;
+	line-height: 0.31rem;
+
+}
+.xiammian{
+	width: 5.63rem;
+	height: 0.31rem;
+	float: left;
+	font-size: 0.16rem;
+	color: #d1d1d1;
+	line-height: 0.33rem;
+
+}
+.huiyuan{
+	height: 0.21rem;
+	float: left;
+	background: #f8dce8;
+	margin-top: 0.05rem;
+	border-radius: 0.25rem;
+	border: 0.01rem solid #ff0000;
+	font-size: 0.16rem;
+	color: #ff0000;
+	line-height: 0.21rem;
+	padding: 0 0.05rem;
+}
+.dingwehe{
+    width: 100%;
+	height: 0.98rem;
+
+}
+/* 餐品结束 */
+/* tab栏开始 */
+.tablandt{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	left: 0;
+	bottom: 0px;
+	border-top: 0.01rem solid #e6e6e6;
+	background: #fff;
+}
+.tbabap{
+	width: 7.02rem;
+	height: 0.98rem;
+	margin: 0 auto;
+/* 	border-top: 0.01rem solid #e6e6e6; */
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.86rem;
+	box-sizing: border-box;
+}
+.zhanghezi{
+	display: block;
+	/* width: 0.5rem; */
+	height: 0.98rem;
+/* 	background: blue; */
+	padding-top: 0.14rem;
+	box-sizing: border-box;
+	font-size: 0.22rem;
+    text-align: center;
+    color: #b7b7b7;
+}
+.zhanghezi i{
+	display: block;
+	font-size: 0.51rem;
+	color: #b7b7b7;
+}
+.zhanghezi .icon-shouye{
+	color: #ae5da1;
+}
+.zhanghezi:first-child{
+	color: #333;
+}
+
+/* tab栏结束 */

@@ -1,0 +1,172 @@
+@import url('base.css');
+header{
+	width: 2.75rem;
+	height: 2.75rem;
+	margin: 1.10rem auto 0.43rem;
+
+}
+.zimu{
+	font-size: 0.16rem;
+	color: #d1d1d1;
+	text-align: center;
+}
+.huny{
+	color: #ce44db;
+	font-size: 0.20rem;
+	margin-top: 0.30rem ;
+	text-align: center;
+}
+.shangse{
+	width: 4.90rem;
+	height: 0.23rem;
+	background: #d948e6;
+	margin: 1.09rem auto 0;
+	border-top-left-radius: 0.20rem;
+	border-top-right-radius: 0.20rem;
+}
+.denglzhong{
+	width: 5.59rem;
+	height: 3.86rem;
+	margin: 0 auto;
+	border-radius: 0.20rem;
+	overflow: hidden;
+/* 	border: 0.01rem solid #ce44db; */
+	border-top: none;
+	box-shadow: 0px 3px 10px 1px rgba(206, 68, 219, 1.0);
+	position: relative;
+}
+.dianjideng{
+	width: 2rem;
+	height: 0.49rem;
+	background: #ebebeb;
+	position: absolute;
+	/* left: 2.7rem; */
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10.1rem;
+	border-radius: 0.25rem;
+	line-height: 0.49rem;
+	text-align: center;
+}
+.dianjideng:hover{
+	background: #d948e6;
+}
+.icon-duihao{
+	display: block;
+	color: #fff;
+}
+.dian{
+	width: 0.47rem;
+	height: 0.16rem;
+	margin: 0.19rem auto 0.26rem;
+}
+.zuod{
+	width: 0.12rem;
+	height: 0.12rem;
+	background: #cdcccc;
+	float: left;
+	border-radius: 50%;
+}
+.youd{
+	width: 0.12rem;
+	height: 0.12rem;
+	background: #ce44db;
+	float: right;
+	border-radius: 50%;
+}
+.zhanhao{
+	width: 4.63rem;
+	height: 0.64rem;
+	margin: 0 auto 0.08rem;
+	display: flex;
+	justify-content: space-between;
+}
+.zzyou{
+	width: 0.27rem;
+	height: 0.64rem;
+}
+.zzztuo{
+	width: 0.20rem;
+	height: 0.07rem;
+	background: #48abe5;
+	border-radius: 0.25rem;
+    margin: 0.28rem auto 0;
+}
+.zzhong{
+	width: 4.09rem;
+	height: 0.64rem;
+	border-bottom: 0.01rem solid #ebeaea;
+}
+.zyou{
+	width: 0.27rem;
+	height: 0.64rem;
+}
+.zzayou{
+	width: 0.21rem;
+	height: 0.36rem;
+	background: #48abe5;
+	border-radius: 0.25rem;
+    margin: 0.14rem auto 0;
+}
+input{
+	display: block;
+	float: left;
+	font-size: 0.22rem;
+	border: none;
+	height: 100%;
+    width: 100%;
+    padding: 0;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+   /*  background: #bd8eb6; */
+   border-radius: 0.25rem;
+}
+.wangji{
+	padding-left: 0.5rem;
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    line-height: 0.64rem;
+    color: #757575;
+}
+.wangji:hover{
+	color: #d948e6;
+}
+input:focus{
+	outline: none;
+}
+.icon-suo{
+	display: block;
+	font-size: 0.31rem;
+	color: #d4237a;
+	line-height: 0.64rem;
+	margin-left: 0.05rem
+}
+.icon-wenhao{
+	display: block;
+	font-size: 0.31rem;
+	color: #f58585;
+	line-height: 0.64rem;
+	margin-left: 0.05rem
+}
+.sange{
+	width: 4rem;
+	height: 0.84rem;
+	margin: 1.17rem auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.sange i{
+	font-size: 0.86rem
+}
+.icon-weixin-hover{
+	color: #01ff9b;
+}
+.icon-qq1{
+	color: #05a0ff;
+}
+.icon-sina{
+	color: #e14141;
+}
+/* 头部结束 */

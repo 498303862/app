@@ -1,0 +1,128 @@
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.98rem;
+	background: #ae5da1;
+	overflow: hidden;
+/* 	position: relative; */
+}
+/* 头部开始 */
+.geren{
+	height: 0.35rem;
+	font-size: 0.34rem;
+	text-align: center;
+	color: #fff;
+	line-height: 0.98rem;
+}
+/* 头部结束 */
+/* 中部开始 */
+.zhonbu{
+	width: 7.02rem;
+	height: 1.73rem;
+	border: 0.01rem solid #d6d4d4;
+	border-radius: 0.20rem;
+	margin: 0.45rem auto;
+	padding: 0.23rem 0.20rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.zuptuzi{
+	width: 1.26rem;
+	height: 1.26rem;
+}
+.zhongtuzi{
+	width: 4rem;
+	height: 1.26rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.youtudi{
+	width: 1rem;
+	height: 1.26rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: flex-end;
+}
+.bnan{
+	font-size: 0.28rem;
+	color: #4b4b4b;
+}
+.jindan{
+	font-size: 0.22rem;
+	color: #767676;
+}
+.hhh{
+	width: 2.77rem;
+	height: 0.26rem;
+	display: flex;
+	justify-content: space-between;
+}
+.hhh li{
+	border: 0.01rem solid #ae5da1;
+	font-size: 0.18rem;
+	color: #ae5da1;
+	line-height: 0.26rem;
+	padding: 0  0.1rem;
+	border-radius: 0.25rem;
+
+}
+.shij{
+	font-size: 0.14rem;
+	color: #8d8b8b;
+}
+.yichen{
+	font-size: 0.16rem;
+	color: #767676;
+}
+.ssssqi{
+	font-size: 0.24rem;
+	color: #d6163a;
+}
+/* 中部结束 */
+/* tab栏开始 */
+.tablandt{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	left: 0;
+	bottom: 0px;
+	border-top: 0.01rem solid #e6e6e6;
+	background: #fff;
+}
+.tbabap{
+	width: 7.02rem;
+	height: 0.98rem;
+	margin: 0 auto;
+/* 	border-top: 0.01rem solid #e6e6e6; */
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.86rem;
+	box-sizing: border-box;
+}
+.zhanghezi{
+	display: block;
+	/* width: 0.5rem; */
+	height: 0.98rem;
+/* 	background: blue; */
+	padding-top: 0.14rem;
+	box-sizing: border-box;
+	font-size: 0.22rem;
+    text-align: center;
+    color: #b7b7b7;
+}
+.zhanghezi i{
+	display: block;
+	font-size: 0.51rem;
+	color: #b7b7b7;
+}
+.zhanghezi .icon-dingdan{
+	color: #ae5da1;
+}
+.zhanghezi:nth-child(2){
+	color: #333;
+}
+/* 底部TAB栏结束 */

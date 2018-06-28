@@ -1,0 +1,407 @@
+@import url('base.css');
+header{
+	width: 100%;
+	height: 1.6rem;
+	background: #ae5da1;
+/* 	position: relative; */
+}
+/* 头部开始 */
+.tbzuo{
+	width: 1.61rem;
+	height: 0.36rem;
+	float: left;
+	margin: 0.3rem 0 0 0.24rem;
+
+}
+.tbyou{
+	width: 1.34rem;
+	height: 0.36rem;
+	float: right;
+	margin: 0.3rem 0.24rem 0 0;
+}
+.tbzuo a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tbzuo .icon-fanhui{
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+}
+
+.tbyou a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tbyou .icon-fenxiang{
+	display: block;
+	float: right;
+	color: #fff;
+	font-size: 0.36rem;
+	line-height: 0.36rem;
+}
+
+/* 头部结束 */
+/* banner开始 */
+.bannerdt{
+	width: 7.02rem;
+	height: 1.71rem;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 0.93rem;
+}
+.bazuot{
+	width: 1.68rem;
+	height: 1.68rem;
+	float: left;
+}
+.banyout{
+	width: 4.84rem;
+	height: 1.68rem;
+	float: right;
+}
+.sigee{
+	width: 4.84rem;
+	height: 0.41rem;
+	font-size: 0.28rem;
+	color: #fff;
+	line-height: 0.41rem;
+}
+.sigee1{
+	width: 4.84rem;
+	height: 0.41rem;
+	font-size: 0.16rem;
+	color: #e3cbdd;
+	/* line-height: 0.41rem; */
+}
+.sigee2{
+	width: 4.84rem;
+	height: 0.41rem;
+	font-size: 0.20rem;
+	color: #9a9a9a;
+	line-height: 0.41rem;
+}
+.sigee3{
+	width: 4.60rem;
+	height: 0.41rem;
+    display: flex;
+    justify-content: space-between;
+}
+.zan{
+	/* width: 1.5rem; */
+	height: 0.32rem;
+	/* padding: 0 0.05rem; */
+	border: 0.01rem solid #ff6700;
+	color: #ff6700;
+	font-size: 0.18rem;
+	line-height: 0.32rem;
+	border-radius: 0.25rem;
+	margin-top: 0.04rem;
+}
+/* banner结束 */
+/* 点餐开始 */
+.diancandt{
+	width: 100%;
+	height: 0.46rem;
+	border-bottom: 0.01rem solid #c9c8c9;
+	margin-top: 1.45rem;
+}
+.diancanz{
+	width: 7.02rem;
+	height: 0.46rem;
+	margin: 0 auto;
+	padding: 0 0.89rem 0 1.10rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.diancanzi{
+	display: block;
+	width: 0.62rem;
+	height: 0.43rem;
+	color: #a3a3a3;
+	font-size: 0.26rem;
+	line-height: 0.46rem;
+	text-align: center;
+}
+.diancanzi:nth-child(1){
+      border-bottom: 0.03rem solid #ff0000;
+      color: #000;
+}
+.datud{
+	width: 100%;
+	height: 13.57rem;
+/* 	position: relative; */
+    display: flex;
+}
+.zuocediana{
+	width: 1.22rem;
+	height: 13.57rem;
+	background: #d8d8d8;
+    top: 3.51rem;
+	left: 0;
+	display: block;
+    position: fixed;
+	z-index: 999;
+}
+.jipaitu{
+	width: 1.22rem;
+	height: 13.57rem;
+	background: #d8d8d8;
+	margin-right: 0.15rem;
+
+}
+.jipai{
+	width: 5.79rem;
+	height: 13.57rem;
+}
+.zuocediana li{
+	width: 100%;
+	height: 1.08rem;
+	background: #d8d8d8;
+	line-height: 1.08rem;
+	text-align: center;
+	display: block;
+}
+.zuocediana li a{
+    color: #000;
+    font-size: 0.24rem;
+}
+.zuocediana li i{
+	color: red;
+	font-size: 0.24rem;
+}
+.zuocediana li:first-child{
+	background: #bababa;
+}
+.rexiaox{
+	width: 100%;
+	height: 0.41rem;
+	font-size: 0.22rem;
+	color: #000;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+.dianjiai{
+	width: 5.29rem;
+	height: 1.36rem;
+	display: block;
+}
+.jiahao{
+	width: 0.5rem;
+	height: 1.36rem;
+	display: block;
+	color: #fb7701;
+	font-size: 0.30rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+.jpzhong{
+	width: 3rem;
+	height: 1.36rem;
+	float: left;
+	margin-left: 0.37rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wusuowei{
+	width: 100%;
+	height: 3.51rem;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.wusuowei1{
+	width: 100%;
+	height: 3.51rem;
+	background: #fff;
+}
+.jipaizt{
+	width: 1.36rem;
+	height: 1.36rem;
+	float: left;
+}
+.dianjizhongtu{
+	width: 5.79rem;
+	height: 1.36rem;
+	margin-bottom: 0.31rem;
+	display: flex;
+}
+.zi{
+	width: 3rem;
+	font-size: 0.28rem;
+	color: #000;
+}
+.yue{
+	font-size: 0.22rem;
+	color: #939393;
+}
+.qian{
+	font-size: 0.26rem;
+	color: #ff0000;
+}
+.jiahao .icon-add{
+	font-size: 0.30rem
+}
+.dingwehe{
+    width: 100%;
+	height: 1.3rem;
+
+}
+/* 点餐结束 */
+/* 底部开始 */
+.tablandt{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	left: 0;
+	bottom: 0px;
+	border-top: 0.01rem solid #e6e6e6;
+	background: #fff;
+	z-index: 999;
+}
+.tbabap{
+	width: 5.30rem;
+	height: 0.98rem;
+/* 	border-top: 0.01rem solid #e6e6e6; */
+	background: #464646;
+	/* display: flex;
+	justify-content: space-between;
+	padding: 0 0.86rem;
+	box-sizing: border-box; */
+	float: left;
+}
+.nimade{
+	width: 2.8rem;
+	height: 0.98rem;
+	margin-left: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tubiao{
+	width: 0.7rem;
+	height: 0.7rem;
+	line-height: 0.8rem;
+	text-align: center;
+
+}
+.nimade .icon-gouwuche2{
+	font-size: 0.8rem;
+	color: #2d2d2d;
+}
+.ziti{
+	height: 0.7rem;
+	width: 1.8rem;
+}
+/* .zi span{
+	font-size: 0.1rem;
+} */
+.tbayou{
+	width: 2.20rem;
+	height: 0.98rem;
+	background: #706a6a;
+	float: right;
+	text-align: center;
+}
+.qisons{
+	color: #312e2e;
+	font-size: 0.34rem;
+	line-height: 0.98rem;
+}
+.fakeda{
+	font-size: 0.28rem;
+	margin: 0.08rem 0;
+	display: block;
+	color: #2d2d2d;
+}
+.fakexiao{
+	font-size: 0.20rem;
+	color: #2d2d2d;
+}
+
+/* 底部结束 */
+/* 底部开始 */
+.tablandt{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	left: 0;
+	bottom: 0px;
+	border-top: 0.01rem solid #e6e6e6;
+	background: #fff;
+	z-index: 999;
+}
+.tbabap{
+	width: 5.30rem;
+	height: 0.98rem;
+/* 	border-top: 0.01rem solid #e6e6e6; */
+	background: #464646;
+	/* display: flex;
+	justify-content: space-between;
+	padding: 0 0.86rem;
+	box-sizing: border-box; */
+	float: left;
+}
+.nimade{
+	width: 2.8rem;
+	height: 0.98rem;
+	margin-left: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tubiao{
+	width: 0.7rem;
+	height: 0.7rem;
+	line-height: 0.8rem;
+	text-align: center;
+
+}
+.nimade .icon-gouwuche2{
+	font-size: 0.8rem;
+	color: #2d2d2d;
+}
+.ziti{
+	height: 0.7rem;
+	width: 1.8rem;
+}
+/* .zi span{
+	font-size: 0.1rem;
+} */
+.tbayou{
+	width: 2.20rem;
+	height: 0.98rem;
+	background: #706a6a;
+	float: right;
+	text-align: center;
+}
+.qisons{
+	color: #312e2e;
+	font-size: 0.34rem;
+	line-height: 0.98rem;
+}
+.fakeda{
+	font-size: 0.28rem;
+	margin: 0.08rem 0;
+	display: block;
+	color: #2d2d2d;
+}
+.fakexiao{
+	font-size: 0.20rem;
+	color: #2d2d2d;
+}
+
+/* 底部结束 */
