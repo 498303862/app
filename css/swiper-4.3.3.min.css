@@ -19,3 +19,8 @@
 	top: 0.93rem;
 	border-radius: 0.1rem
 }
+.swiper-container  img{
+	width: 7.02rem;
+	height: 100%;
+	display: block;
+}
